@@ -1,6 +1,6 @@
 # Python program to check palindrome
-
-string = input("Enter a string: ")
+import sys
+string = sys.argv[1]
 
 if string == string[::-1]:
     print(string, "is a palindrome")
